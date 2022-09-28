@@ -14,6 +14,10 @@
     background-blend-mode: color-burn;
 }
 
+.taekwondo p{
+    transform: translateX(25px);
+}
+
 .kick{
     animation-name: kick;
     animation-duration: 3s;
@@ -28,7 +32,7 @@
     100%   { transform: translateX(-0px)}
 }
 
-.kravmaga {
+.krav-maga {
     background-image: url("../icons/icons8-krav-maga-64.png");
     background-size: auto;
     background-repeat: no-repeat;
@@ -36,7 +40,7 @@
     background-blend-mode: color-burn;
 }
 
-.gamemake {
+.game-make {
     background-image: url("../icons/icons8-joystick-64.png");
     background-size: auto;
     background-repeat: no-repeat;

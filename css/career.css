@@ -1,0 +1,23 @@
+.uptimai{
+    background-image: url("../images/uptimai.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.soom{
+    background-image: url("../images/soom.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.oracle{
+    background-image: url("../images/oracle.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}

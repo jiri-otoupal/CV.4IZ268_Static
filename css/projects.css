@@ -1,0 +1,24 @@
+.aerobooster{
+    background-image: url("../images/aero.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.decentnet{
+    background-image: url("../images/decent.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+.cruodomine{
+    background-image: url("../images/cruodomine.PNG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
