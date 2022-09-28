@@ -34,10 +34,8 @@ addEventListener('wheel', (event) => {
 });
 
 function add_fav() {
-    console.log("aaa")
-    if (current_i >= favList.length) {
+    if (current_i >= favList.length)
         return
-    }
 
     const list = document.getElementById('fav-list');
     const newLI = document.createElement('p');

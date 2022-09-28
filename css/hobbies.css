@@ -1,0 +1,61 @@
+.violin {
+    background-image: url("../icons/icons8-violin-96.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode: color-burn;
+}
+
+.taekwondo {
+    background-image: url("../icons/icons8-taekwondo-64.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right 250%;
+    background-blend-mode: color-burn;
+}
+
+.kick{
+    animation-name: kick;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.65,1.13,.28,.85);
+}
+
+@keyframes kick {
+    0% { transform: translateX(25px) }
+    50%  { transform: translateX(5px)
+    }
+    100%   { transform: translateX(-0px)}
+}
+
+.kravmaga {
+    background-image: url("../icons/icons8-krav-maga-64.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode: color-burn;
+}
+
+.gamemake {
+    background-image: url("../icons/icons8-joystick-64.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-blend-mode: lighten;
+}
+
+.coding {
+    background-image: url("../icons/icons8-laptop-coding-64.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-blend-mode: color-burn;
+}
+
+.biker {
+    background-image: url("../icons/icons8-motorbike-helmet-64.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: color-burn;
+}
