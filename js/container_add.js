@@ -1,7 +1,8 @@
 var cooldowned = true;
 var current_i = 0;
 var current_margin = 25;
-const favList = ["Software Developer", "Martial Arts lover", "Motorcyclist", "Adrenaline addict", "Entrepreneur", "Casual violinist", "Automation extremist"]
+const favList = ["Software Developer", "Martial Arts lover", "Motorcyclist", "Adrenaline addict",
+    "Entrepreneur", "Casual violinist", "Automation extremist"]
 
 function reset() {
     if (current_i < favList.length)
