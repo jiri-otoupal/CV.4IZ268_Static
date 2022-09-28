@@ -1,0 +1,41 @@
+.navbar{
+    border-radius: 8px;
+    background-color: rgba(26, 0, 26, 1);
+    gap: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item{
+    display: inline-flex;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    color: rgb(248, 248, 248);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Ink Free, serif;
+
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    border-radius: 8px;
+    background-color: rgba(104, 0, 114, 0.5);
+    color: rgb(248, 248, 248);
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    border-radius: 8px;
+    background-color: rgb(73, 0, 77);
+
+}
